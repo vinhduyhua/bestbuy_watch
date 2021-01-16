@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-# bestbuy_watch
 Web application that keep track of Bestbuy items
 =======
 BESTBUY WATCH
@@ -18,4 +16,3 @@ This feature was achieved by using "django-background-tasks" which runs the web 
 The front end is design with a simplicity in mind. It has the intuitive inteface with friendly color schemes and modern font-family.
 
 To run this app [Beautifulsoup, requests, django-background-tasks] libraries are needed.
->>>>>>> 4d17f77 (Trying to push to repo)
