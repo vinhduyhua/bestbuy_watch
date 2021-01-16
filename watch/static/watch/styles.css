@@ -1,0 +1,54 @@
+html {
+  display: table;
+  margin: auto;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  display: table-cell;
+  vertical-align: middle;
+  height: 100%;
+}
+
+.body h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+h1.display-4 {
+  text-align: center;
+}
+
+.navigation, .list_item, .btn.btn-primary, .form-control {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.btn.btn-primary {
+  width: auto;
+  display: block;
+  margin-top: 10px;
+}
+
+.list_item {
+  width: 50%;
+  margin-top: 15px;
+}
+.list_item .row {
+  border-top: 1px solid #ccc;
+}
+.list_item .row .col, .list_item .row .col-2 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.list_item .row .col p, .list_item .row .col-2 p {
+  margin: 0;
+  font-size: 0.9em;
+}
+.list_item .row .col-2 button {
+  float: right;
+}
+
+/*# sourceMappingURL=styles.css.map */

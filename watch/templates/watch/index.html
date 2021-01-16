@@ -1,0 +1,15 @@
+{% extends "watch/layout.html" %}
+
+{% load static %}
+
+{% block body %}
+<p>{{ text }}</p>
+	<input id="item" name="item" class="form-control" type="text" placeholder="Type item here">
+	<input id="search" class="btn btn-primary" type="submit" value="Search Item">
+	<div class="list_item">
+	</div>
+{% endblock %}
+
+{% block script %}
+	<script type="text/javascript" src="{% static 'watch/search.js' %}"></script>
+{% endblock %}
